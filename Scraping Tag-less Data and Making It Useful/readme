@@ -1,0 +1,7 @@
+Scraping data from can be very easy sometimes, especially if you have a proper tags for elements in the HTML code.
+It can be easy even if the proper tags are missing but the pre-processing part can be challenging.
+I was approached by a firm to scrape the data from one such website. Initially, I was pretty surprised at the relative ease at which I had been able to scrape this data.
+Simply running a loop over RSelenium scraped data from 57 pages in about 40 minutes. However, when I looked closely, tags were missing.
+After some brainstorming, I was finally able to figure out a way to make it presentable and useful for the business.
+I removed some text from the scraped data which made led to creation of a pattern. This pattern enabled me to create indexes which came handy while extracting information on a particular attribute.
+Then, these informations were combined and exported, making the firm happy. 
