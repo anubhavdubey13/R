@@ -1,0 +1,5 @@
+The code describes a way to scrape pseudo-element protected information from a website.
+I did this while handling an Independent Project for database creation. 
+The steps involve saving the code of the webpage and taking the screenshot after scrolling down to trigger JS events.
+This is followed by extracting information stored in normal elemnets from code while extracting the protected information using screenshot.
+After some manual checking and cleaning, I obtained the desired output.
