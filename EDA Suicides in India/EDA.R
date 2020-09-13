@@ -236,6 +236,3 @@ tab_fem_vs_prof
 north %>% filter(Type_code == "Social_Status") %>%
   ggplot(aes(x = Type, y = Total)) + geom_col() + coord_flip() + facet_wrap(~State) +
   labs(title = "Social_Status vs Total accross States")
-
-#C: Max : Married (absolute terms)
-
